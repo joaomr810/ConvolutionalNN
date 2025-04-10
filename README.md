@@ -9,6 +9,7 @@ This repository contains the files where neural networks were built using **Tens
 | input/seg_train     | Folder containing the Intel Image Classification dataset used for training and evaluation |
 | Project_CNN.ipynb   | Jupyter Notebook where the full project was developed, including data exploration, model training, evaluation, and conclusions |
 | Project_CNN.py      | Python script version of the notebook above |
+| Project_CNN.pdf     | PDF version of the notebook above |
 | final_cnn.keras     | Saved model file containing the best-trained Convolutional Neural Network (CNN) with a 94% accuracy on the full dataset.    |
 | cnn_mobilenet.keras | Saved model instance that achieved the best metrics across the training, validation, and testing datasets when using the smaller training dataset |
 | log.json            | JSON file logging the best model instances during training, storing metrics for both training and validation  |
