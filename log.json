@@ -1,0 +1,120 @@
+{
+    "model_name": "baseline_model",
+    "epochs": 50,
+    "configurations": {
+        "optimizer": "Adam",
+        "loss_function": "CategoricalCrossentropy (from_logits=True)",
+        "metrics": [
+            "Accuracy",
+            "F1 Score"
+        ]
+    },
+    "best_metrics": {
+        "training": {
+            "loss": 0.710687518119812,
+            "accuracy": 0.7526666522026062,
+            "f1_score": 0.7550079822540283
+        },
+        "validation": {
+            "loss": 1.2410401105880737,
+            "accuracy": 0.5366666913032532,
+            "f1_score": 0.4960712492465973
+        }
+    }
+}
+{
+    "model_name": "cnn_base",
+    "epochs": 20,
+    "configurations": {
+        "optimizer": "Adam",
+        "loss_function": "CategoricalCrossentropy (from_logits=True)",
+        "metrics": [
+            "Accuracy",
+            "F1 Score"
+        ]
+    },
+    "best_metrics": {
+        "training": {
+            "loss": 0.010864456184208393,
+            "accuracy": 0.9983333349227905,
+            "f1_score": 0.9983982443809509
+        },
+        "validation": {
+            "loss": 1.0090841054916382,
+            "accuracy": 0.6773333549499512,
+            "f1_score": 0.664584219455719
+        }
+    }
+}
+{
+    "model_name": "cnn_v2",
+    "epochs": 20,
+    "configurations": {
+        "optimizer": "Adam",
+        "loss_function": "CategoricalCrossentropy (from_logits=True)",
+        "metrics": [
+            "Accuracy",
+            "F1 Score"
+        ]
+    },
+    "best_metrics": {
+        "training": {
+            "loss": 0.4122263193130493,
+            "accuracy": 0.8573333621025085,
+            "f1_score": 0.8592495322227478
+        },
+        "validation": {
+            "loss": 0.8039628863334656,
+            "accuracy": 0.7160000205039978,
+            "f1_score": 0.7049509882926941
+        }
+    }
+}
+{
+    "model_name": "cnn_reg",
+    "epochs": 40,
+    "configurations": {
+        "optimizer": "Adam",
+        "loss_function": "CategoricalCrossentropy (from_logits=True)",
+        "metrics": [
+            "Accuracy",
+            "F1 Score"
+        ]
+    },
+    "best_metrics": {
+        "training": {
+            "loss": 0.43059277534484863,
+            "accuracy": 0.921999990940094,
+            "f1_score": 0.9232941269874573
+        },
+        "validation": {
+            "loss": 0.9227615594863892,
+            "accuracy": 0.7599999904632568,
+            "f1_score": 0.7583963871002197
+        }
+    }
+}
+{
+    "model_name": "cnn_mobilenet",
+    "epochs": 15,
+    "configurations": {
+        "optimizer": "Adam",
+        "loss_function": "CategoricalCrossentropy (from_logits=True)",
+        "metrics": [
+            "Accuracy",
+            "F1 Score"
+        ]
+    },
+    "best_metrics": {
+        "training": {
+            "loss": 0.18174536526203156,
+            "accuracy": 0.9223333597183228,
+            "f1_score": 0.9236086010932922
+        },
+        "validation": {
+            "loss": 0.2979837954044342,
+            "accuracy": 0.9100000262260437,
+            "f1_score": 0.9116433262825012
+        }
+    }
+}
